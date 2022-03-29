@@ -31,16 +31,16 @@ public class Task12 {
         }
         Pattern regex2 = Pattern.compile("\\.\\s\\w");
         int counter = 0;
-        for (String s:newArr) {
+        for (String s : newArr) {
             Matcher matcher2 = regex2.matcher(s);
-            while (matcher2.find()){
+            while (matcher2.find()) {
                 counter++;
             }
         }
         Pattern regex3 = Pattern.compile("\\w");
         for (String s : newArr) {
             Matcher matcher3 = regex3.matcher(s);
-            if (matcher3.find()){
+            if (matcher3.find()) {
                 counter++;
             }
 
