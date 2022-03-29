@@ -24,7 +24,6 @@ public class Task5 {
                 continue;
             }
             newArray.add(arrayTrim[i]);
-
         }
         for (int i = 0; i < newArray.size(); i++) {
             System.out.println(newArray.toArray()[i]);
